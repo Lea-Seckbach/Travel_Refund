@@ -1,0 +1,16 @@
+{
+  "jiraBaseUrl": "https://YOUR-COMPANY.atlassian.net",
+  "projectKey": "QA",
+  "language": "he",
+  "testType": "Manual",
+  "repositoryRootFolder": "/Travel Refund",
+  "testSourceDir": "src/test/java",
+  "surefireReportsDir": "target/surefire-reports",
+  "statusOnPass": "Run",
+  "statusOnFail": "Failed",
+  "xrayRunStatusOnPass": "PASSED",
+  "xrayRunStatusOnFail": "FAILED",
+  "createTestExecution": true,
+  "testExecutionSummary": "Sanity run {date} - {month}",
+  "labels": ["automation", "sanity", "travel-refund"]
+}
